@@ -14,7 +14,7 @@
 	"forwardPorts": [3000, 5432],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bundle install && rake db:create"
+	"postCreateCommand": "bundle install && rake db:create && /usr/local/rvm/bin/rvm install 3.3.3"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
